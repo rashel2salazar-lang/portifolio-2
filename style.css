@@ -1,29 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+
 body{
-    background-color: #ebb9d8;
+    background-color: #ffdafb;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 2000px;
+    font-style: normal;
+    font-size: 20px;
 }
 
 header{
     display:inline-block;/* ficar na memas linha */
-   background-color:#e084bd;
+   background-color: #f8bbd5;
    color: aliceblue;
+ width:100% ; /* ele colocou logo ai para o primero quadrado fique do tamanho do texto ou tamanho da pag*/
+border-radius:30px;
+border:8px solid  palevioletred;
+font-family: bryndan writer;
+font-family: "Caveat", cursive;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
 }
 
 .titulo{
     
-    width: 5000px;
+   
     height: 40px;
     padding-left: 30px;
     border-radius: 20px;
     box-shadow: 500px;
+    display: inline-block;
 
 }
-
-}
-.tab1{
+.menu{
+    display: inline-block;
     text-align: center;
-    padding: 50px 70px 20px 10px;
+    width:100% ;
+    height:1px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.paracima{
+margin-bottom:30px ;
+
+/*aqui vamos mecher em pastas primero class e um id, para separa cada quadrado*/
+}
+#container-sobre{
+    display: inline-block;/* define que nossa caixa nao vai ocupar toda linha do site*/
+    width:500px;
+    background-image:url(imagens/quadrado\ do\ sobre.png);
+    background-size: contain;
+    background-repeat:no-repeat ;
+}
+#container-minhafoto{
+    display: inline-block;
+    width: 500px;
+}
+#sobre{
+    width:500px; /* ele sever para formar seu quadrado*/
     
 }
- .article1{
+#perfil{
+    width: 295px;
+    margin-left:80px;
+     border: 2px solid black;    
+}
+    
 
- }
+
+#textosobre2{
+    width:390px;
+    padding-bottom: 70px;
+    margin-bottom:40px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+
+
+
+}
+#textosobre1{
+    width:390px;
+    text-align: justify;
+    padding-bottom: 50px;
+
+}
