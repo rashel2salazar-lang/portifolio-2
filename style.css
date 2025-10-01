@@ -59,7 +59,7 @@ margin-bottom:30px ;
     background-size: 500px;
     background-repeat:no-repeat ;
 }
-#imagem-so-sobre{
+#imagem-do-sobre{
     display: inline-block;
     width: 100px;
     margin-left: 150px;
@@ -69,14 +69,8 @@ margin-bottom:30px ;
 #container-minhafoto{
     display: inline-block;
     width: 300px;
-}
-#fundo-sobre{
-    display: inline-block;
-    width: 500px;
-    padding-left:800px ;
-   
-    
-}
+    margin-right: 100px;
+
 #article-sobre{
     width:1300px; /* ele sever para formar seu quadrado*/
     
