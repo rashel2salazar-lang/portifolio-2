@@ -56,15 +56,29 @@ margin-bottom:30px ;
     display: inline-block;/* define que nossa caixa nao vai ocupar toda linha do site*/
     width:500px;
     background-image:url(imagens/quadrado\ do\ sobre.png);
-    background-size: contain;
+    background-size: 500px;
     background-repeat:no-repeat ;
+}
+#imagem-so-sobre{
+    display: inline-block;
+    width: 100px;
+    margin-left: 150px;
+
+
 }
 #container-minhafoto{
     display: inline-block;
-    width: 500px;
+    width: 300px;
 }
-#sobre{
-    width:500px; /* ele sever para formar seu quadrado*/
+#fundo-sobre{
+    display: inline-block;
+    width: 500px;
+    padding-left:800px ;
+   
+    
+}
+#article-sobre{
+    width:1300px; /* ele sever para formar seu quadrado*/
     
 }
 #perfil{
@@ -89,7 +103,7 @@ margin-bottom:30px ;
 
 }
 #textosobre1{
-    width:390px;
+    width:700px;
     text-align: justify;
     padding-bottom: 50px;
 
